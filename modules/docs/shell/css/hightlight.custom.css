@@ -1,0 +1,24 @@
+.language-php{
+    color: #0000BB;
+}
+
+.language-php .hljs-preprocessor{
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.language-php .hljs-comment{
+    color: #FB9D00 !important;
+}
+
+.language-php .hljs-keyword{
+    color: #007700 !important;
+}
+
+.language-php .hljs-function .hljs-params{
+    color: #0000BB !important;
+}
+
+.language-php .hljs-string{
+    color: #DD0000 !important;
+}

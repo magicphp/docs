@@ -1,0 +1,216 @@
+@import url(http://fonts.googleapis.com/css?family=Cantora+One); 
+
+body{
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    background-color: #FFF;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.docsIndexBox{
+    padding: 30px 15px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    text-align: center;
+    color: #FFF;
+}
+
+.docsIndexBox h1{
+    text-align: center;
+    font-family: 'Cantora One', sans-serif;
+    font-size: 50px;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    
+}
+
+ h1[id]{ 
+    padding-top: 80px;
+    margin-top: -45px;
+    font-size: 36px;
+}
+
+h2[id]{
+    font-size: 24px;
+}
+
+.docsIndexBox p{
+    font-size: 30px;
+    color: #EFEFEF;
+}
+
+.docsIndexBox .license{
+    font-size: 10px; 
+    padding-top: 10px;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .docsIndexBox h1, .preview h1{
+        font-family: 'Cantora One', sans-serif;
+        font-size: 100px;
+        color: #FFF;
+    }
+}
+
+.docsIndexFooter{
+    padding-top: 20px;
+    border-top: 1px solid #EBEBEB;
+    text-align: center;
+}
+
+.docsGeneric h1, .preview h1{
+    font-size: 36px;
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+.code{
+    background-color: #f5f5f5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.code code{
+    background-color: transparent;
+}
+
+.external{
+    padding-right: 13px;
+    background-image: url("../modules/docs/shell/img/external.png");
+    background-position: center right;
+    background-repeat: no-repeat; 
+}
+
+pre{
+    background-color: #F7F7F9 !important;
+    border: 1px solid #DDDDDD !important;
+}
+
+.exemple{
+    border: 1px solid #DDDDDD !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.exemple pre{
+    border: none !important;
+    border-top: 1px solid #DDDDDD !important;
+}
+
+.exemple .code{
+    margin-bottom: -10px;
+    margin-top: 0px;
+    -webkit-border-bottom-right-radius: 5px !important;
+    -webkit-border-bottom-left-radius: 5px !important;
+    -moz-border-radius-bottomright: 5px !important;
+    -moz-border-radius-bottomleft: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-bottom-left-radius: 5px !important; 
+}
+
+.exemple-header{
+    font-size: 12px;
+    font-weight: 700;
+    color: #bbb;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px
+}
+
+.exemple p{
+    display: none;
+}
+
+.exemple .exemple-result{
+    padding: 15px;
+}
+
+.preview{
+    border: 1px solid #CCC;
+    height: 550px;
+    overflow: scroll
+}
+
+/* Alteração no Hightlights.js */
+.hljs{
+    background-color: transparent !important;
+}
+
+pre p{
+    margin: 0px !important;
+    height: 10px;
+    line-height: 10px;
+}
+
+/* Códigos da documentação do Bootstrap */
+.bs-sidenav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #f7f5fa;
+    border-radius: 5px;
+}
+/* All levels of nav */
+ .bs-sidebar .nav > li > a {
+    display: block;
+    color: #716b7a;
+    padding: 5px 20px;
+}
+.bs-sidebar .nav > li > a:hover, .bs-sidebar .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #e5e3e9;
+    border-right: 1px solid #dbd8e0;
+}
+.bs-sidebar .nav > .active > a, .bs-sidebar .nav > .active:hover > a, .bs-sidebar .nav > .active:focus > a {
+    font-weight: bold;
+    color: #666666;
+    background-color: transparent;
+    border-right: 1px solid #666666;
+}
+/* Nav: second level (shown on .active) */
+ .bs-sidebar .nav .nav {
+    display: none;
+    /* Hide by default, but at >768px, show it */
+    margin-bottom: 8px;
+}
+.bs-sidebar .nav .nav > li > a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    font-size: 90%;
+}
+/* Show and affix the side nav when space allows it */
+ @media screen and (min-width: 992px) {
+    .bs-sidebar .nav > .active > ul {
+        display: block;
+    }
+    /* Widen the fixed sidebar */
+    .bs-sidebar.affix, .bs-sidebar.affix-bottom {
+        width: 213px;
+    }
+    .bs-sidebar.affix {
+        position: fixed;
+        top: 10px;
+    }
+    .bs-sidebar.affix-bottom {
+        position: absolute;
+        /* Undo the static from mobile first approach */
+    }
+    .bs-sidebar.affix-bottom .bs-sidenav, .bs-sidebar.affix .bs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-width: 1200px) {
+    /* Widen the fixed sidebar again */
+    .bs-sidebar.affix-bottom, .bs-sidebar.affix {
+        width: 255px;
+    }
+}

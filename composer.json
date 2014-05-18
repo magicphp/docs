@@ -1,0 +1,21 @@
+{
+    "name": "magicphp/docs",
+    "type": "library",
+    "description": "Documentation system MagicPHP",
+    "keywords": ["framework", "magicphp", "docs"],
+    "homepage": "https://magicphp.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ferreira",
+            "email": "andrehrf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "magicphp/framework": "1.*"
+    },
+    "autoload": {
+        "psr-0": { "magicphp": "." }
+    }
+}

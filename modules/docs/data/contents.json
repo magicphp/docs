@@ -1,0 +1,10 @@
+{
+    "pt": {
+        "index.slogan": "Simples e rápido como mágica!",
+        "index.license": "Código e documentação licenciados sob <a href='https://github.com/magicphp/magicphp/blob/master/LICENSE' target='_blank'>MIT</a>"
+    },
+    "us": {
+        "index.slogan": "Simple and fast like magic!",
+        "index.license": "Code and documentation licensed under <a href='https://github.com/magicphp/magicphp/blob/master/LICENSE' target='_blank'>MIT</a>"
+    }
+}

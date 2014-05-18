@@ -1,0 +1,9 @@
+{
+    "pt": [{"title": "Introdução", "route": "introducao.html", "position": "left"}, 
+           {"title": "Framework", "route": "framework-pt.html", "position": "left"},
+           {"title": "Sobre", "route": "sobre.html", "position": "right"}],
+       
+    "us": [{"title": "Getting started", "route": "getting-started.html", "position": "left"},
+           {"title": "Framework", "route": "framework.html", "position": "left"},
+           {"title": "About", "route": "about.html", "position": "right"}]
+}
